@@ -150,7 +150,7 @@ const Navbar = () => {
                   key={link.title}
                   whileHover={{ scale: 1.1 }}
                 >
-                  <Link href={link.url} onClick={() => setOpen((prev) => !prev)}>{link.title} </Link>
+                  <Link  className="" href={link.url} onClick={() => setOpen((prev) => !prev)}>{link.title} </Link>
                 </motion.div>
               ))}
             </motion.div>

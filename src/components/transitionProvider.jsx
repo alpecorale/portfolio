@@ -20,7 +20,7 @@ const TransitionProvider = ({ children }) => {
           exit={{ height: "140vh" }}
           transition={{ duration: 0.5, ease: "easeOut" }}
         />
-        <motion.div
+        {/* <motion.div
           className="fixed m-auto top-0 bottom-0 left-0 right-0 text-white text-8xl cursor-default z-20 w-fit h-fit"
           initial={{ opacity: 1 }}
           animate={{ opacity: 0 }}
@@ -28,7 +28,7 @@ const TransitionProvider = ({ children }) => {
           transition={{ duration: 0.8, ease: "easeOut" }}
         >
           {pathName != "/" ? (pathName.charAt(1).toUpperCase() + pathName.slice(2)) : "Home"}
-        </motion.div>
+        </motion.div> */}
         <motion.div
           className="h-screen w-screen fixed bg-black rounded-t-[100px] bottom-0 z-30"
           initial={{ height: "140vh" }}
